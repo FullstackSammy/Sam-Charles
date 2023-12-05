@@ -10,8 +10,9 @@ class Song(models.Model):
     )
     
     title = models.CharField(max_length=100)
-    genre = models.CharField(max_length=50, choices=GENRES)
     url = models.URLField(default=None)
+    img = models.ImageField(upload_to=None, blank=True, null=True)
+    genre = models.CharField(max_length=50, choices=GENRES)
     
     def __str__(self):
         return f'Song: {self.title} | Genre: {self.genre}'
