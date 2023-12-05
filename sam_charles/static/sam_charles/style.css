@@ -5,32 +5,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Cinzel', sans-serif;
-}
-
-body {
-    background: url("../img/wood.jpg") no-repeat, center center;
-}
-
-
-html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
-.video {
-    margin: 0 !important;
-    padding: 0;
-    background: url("../img/wood.jpg") no-repeat, center center;
-}
-
-.full-vid {
-    position: relative;
-    bottom: -20%;
-    left: 0;
-    min-width: 100% !important;
-    max-width: 100% !important;
+#header {
+    height: 100vh;
+    background: url("videos/header-vid.mp4") no-repeat, center center;
 }
 
 /* Sections */
@@ -50,12 +31,6 @@ html {
 
 /* Elements */
 
-button {
-    margin-top: 20px !important;
-    padding-left: -50px !important;
-    padding-right: -50px !important;
-}
-
 a {
     text-decoration: none !important;
     color: whitesmoke !important;
@@ -66,24 +41,5 @@ h1 {
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    color: whitesmoke !important;
-}
-
-h2 {
-    color: burlywood !important;
-    padding-top: 5%;
-    font-size: 50px
-}
-
-html {
-  font-size: 14px;
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    color: black !important;
 }
