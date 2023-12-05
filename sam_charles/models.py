@@ -11,6 +11,7 @@ class Song(models.Model):
     
     title = models.CharField(max_length=100)
     genre = models.CharField(max_length=50, choices=GENRES)
+    url = models.URLField(default=None)
     
     def __str__(self):
         return f'Song: {self.title} | Genre: {self.genre}'
