@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url("/img/wood.jpg") no-repeat, center center;
+    background: url('images/wood.jpg') no-repeat, center center;
 }
 
 
@@ -36,7 +36,7 @@ html {
 /* Sections */
 
 .navbar {
-    background-color: rgba(0,0,0,0.5) !important;
+    background-color: rgba(0,0,0,0.8) !important;
 }
 
 .navbar-brand {
@@ -50,24 +50,14 @@ html {
 
 /* Elements */
 
-button {
-    margin-top: 20px !important;
-    padding-left: -50px !important;
-    padding-right: -50px !important;
-}
-
 a {
     text-decoration: none !important;
     color: whitesmoke !important;
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
 /* Media Querys */
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        background: url('images/sam-charles-bg.jpg') no-repeat, center;
     }
 }
