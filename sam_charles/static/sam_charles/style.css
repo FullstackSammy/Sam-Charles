@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Italiana&display=swap');
+
+/* Animations & main things such as Body */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', sans-serif;
+}
+
+body {
+    background: url("../img/wood.jpg") no-repeat, center center;
+}
+
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.video {
+    margin: 0 !important;
+    padding: 0;
+    background: url("../img/wood.jpg") no-repeat, center center;
+}
+
+.full-vid {
+    position: relative;
+    bottom: -20%;
+    left: 0;
+    min-width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Sections */
+
+.navbar {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.nav-link:hover, .navbar-brand:hover, a:hover {
+    color: burlywood !important;
+    transition: ease-in;
+}
+
+/* Elements */
+
+button {
+    margin-top: 20px !important;
+    padding-left: -50px !important;
+    padding-right: -50px !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: whitesmoke !important;
+}
+
+h1 {
+    font-family: 'Cinzel', sans-serif;
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    color: whitesmoke !important;
+}
+
+h2 {
+    color: burlywood !important;
+    padding-top: 5%;
+    font-size: 50px
+}
+
+html {
+  font-size: 14px;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}

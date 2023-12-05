@@ -1,12 +1,7 @@
 {% extends "sam_charles/base.html" %}
 
 {% block content %}
-    <h1>Songs</h1>
-    <ul>
-        {% for song in songs %}
-            <li>
-                <a href="{{ song.url }}">{{ song.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
+<div class="video">
+    <video src="./videos/header-vid.mp4" poster="https://morganwallen.com//wp-content/themes/mw2020/images/video-image_riser.jpg" data-object-fit="cover" class="full-vid" autoplay="" playsinline="" muted="" loop="" preload=""></video>
+</div>
 {% endblock content %}

@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 
 from .models import Song
 
@@ -9,4 +9,4 @@ def index(request):
         'songs': songs,
     }
     
-    return(request, 'sam_charles/index.html', context)
+    return render(request, 'sam_charles/index.html', context)
