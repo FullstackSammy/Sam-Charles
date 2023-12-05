@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Songs(models.Model):
+class Song(models.Model):
     GENRES = (
         ('country', 'Country'),
         ('pop', 'Pop'),
