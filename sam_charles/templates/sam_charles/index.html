@@ -1,7 +1,14 @@
-{% extends "sam_charles/base.html" %}
-{% load static %}
-
-{% block content %}
-<div id="header">
-</div>
+{% extends "sam_charles/base.html" %} {% load static %} {% block content %}
+  <div class="video">
+    <video
+      src="{% static 'sam_charles/videos/header-vid.mp4' %}"
+      data-object-fit="cover"
+      class="full-vid"
+      autoplay=""
+      playsinline=""
+      muted=""
+      loop=""
+      preload=""
+    ></video>
+  </div>
 {% endblock content %}
